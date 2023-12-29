@@ -1,0 +1,31 @@
+{
+  "inputdate": {
+    "l": {
+      "pickerdatetime": {
+        "offset": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Смещение PickerDateTime от поля ввода"
+        }
+      }
+    },
+    "m": {
+      "pickerdatetime": {
+        "offset": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Смещение PickerDateTime от поля ввода"
+        }
+      }
+    },
+    "s": {
+      "pickerdatetime": {
+        "offset": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Смещение PickerDateTime от поля ввода"
+        }
+      }
+    }
+  }
+}

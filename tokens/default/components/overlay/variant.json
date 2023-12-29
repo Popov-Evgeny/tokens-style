@@ -1,0 +1,16 @@
+{
+  "overlay": {
+    "primary": {
+      "color": {
+        "value": "{neutral.container-active}",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "color": {
+        "value": "{neutral.container-default}",
+        "type": "color"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "custominlinenotification": {
+    "m": {
+      "border-width": {
+        "value": "{border-width.m}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов"
+      }
+    }
+  }
+}

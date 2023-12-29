@@ -1,0 +1,280 @@
+{
+  "pickerdate": {
+    "primary": {
+      "bg": {
+        "color": {
+          "value": "{bg.elevated.xl}",
+          "type": "color",
+          "description": "Цвет фона общего контейнера пикера"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{none}",
+          "type": "color",
+          "description": "Цвет бордера общего контейнера пикера"
+        }
+      },
+      "shadow": {
+        "value": "{shadow.bottom.xl}",
+        "type": "boxShadow",
+        "description": "Тень общего контейнера пикера"
+      },
+      "calendar": {
+        "date": {
+          "bg": {
+            "color": {
+              "hover": {
+                "value": "{neutral.container-soft}",
+                "type": "color",
+                "description": "Цвет фона ячейки при hover"
+              },
+              "selected": {
+                "value": "{accent.default}",
+                "type": "color",
+                "description": "Цвет фона выбранной ячейки"
+              },
+              "selected-range": {
+                "value": "{neutral.container-default}",
+                "type": "color",
+                "description": "Цвет фона ячейки в периоде (между выбранными)"
+              },
+              "today": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет фона ячейки текущей даты"
+              }
+            }
+          },
+          "border": {
+            "color": {
+              "hover": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера ячейки при hover"
+              },
+              "selected": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера выбранной ячейки"
+              },
+              "today": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера ячейки текущей даты"
+              }
+            }
+          },
+          "label": {
+            "color": {
+              "default": {
+                "value": "{fg.soft}",
+                "type": "color",
+                "description": "Цвет лейбла ячейки в состоянии покоя"
+              },
+              "hover": {
+                "value": "{fg.soft}",
+                "type": "color",
+                "description": "Цвет лейбла ячейки при hover"
+              },
+              "selected": {
+                "value": "{accent.on-accent}",
+                "type": "color",
+                "description": "Цвет лейбла выбранной ячейки"
+              },
+              "selected-range": {
+                "value": "{fg.soft}",
+                "type": "color",
+                "description": "Цвет лейбла ячейки в периоде (между выбранными)"
+              },
+              "today": {
+                "value": "{accent.default}",
+                "type": "color",
+                "description": "Цвет лейбла ячейки текущей даты"
+              },
+              "disabled": {
+                "value": "{fg.disabled}",
+                "type": "color",
+                "description": "Цвет лейбла ячейки при disabled"
+              }
+            }
+          },
+          "shadow": {
+            "hover": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень ячейки при hover"
+            },
+            "selected": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень выбранной ячейки"
+            }
+          }
+        },
+        "dayofweek": {
+          "label": {
+            "color": {
+              "value": "{fg.muted}",
+              "type": "color",
+              "description": "Цвет лейбла дней недели календаря"
+            }
+          }
+        }
+      },
+      "controlpanel": {
+        "bg": {
+          "color": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона верхней панели"
+          }
+        },
+        "border": {
+          "color": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера верхней панели"
+          }
+        },
+        "control": {
+          "bg": {
+            "color": {
+              "default": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет фона кнопок-контролов (month, year, fullDate)"
+              },
+              "hover": {
+                "value": "{neutral.container-default}",
+                "type": "color",
+                "description": "Цвет фона кнопок-контролов (month, year) при hover"
+              },
+              "selected": {
+                "value": "{neutral.container-default}",
+                "type": "color",
+                "description": "Цвет фона кнопок-контролов (month, year) selected"
+              }
+            }
+          },
+          "border": {
+            "color": {
+              "default": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера кнопок-контролов (month, year, fullDate)"
+              },
+              "hover": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера кнопок-контролов (month, year) при hover"
+              },
+              "selected": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера кнопок-контролов (month, year) selected"
+              }
+            }
+          }
+        },
+        "month": {
+          "label": {
+            "color": {
+              "default": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла для месяца в состоянии покоя"
+              },
+              "hover": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла для месяца при hover"
+              },
+              "selected": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла для месяца при selected"
+              }
+            }
+          }
+        },
+        "year": {
+          "label": {
+            "color": {
+              "default": {
+                "value": "{fg.muted}",
+                "type": "color",
+                "description": "Цвет лейбла для года в состоянии покоя"
+              },
+              "hover": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла для года при hover"
+              },
+              "selected": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла для года при selected"
+              }
+            }
+          }
+        },
+        "fulldate": {
+          "label": {
+            "color": {
+              "selected": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла для полной даты"
+              }
+            }
+          }
+        },
+        "carouselcontrol": {
+          "bg": {
+            "color": {
+              "default": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет фона кнопок перелистывания"
+              },
+              "hover": {
+                "value": "{neutral.container-default}",
+                "type": "color",
+                "description": "Цвет фона кнопок перелистывания при hover"
+              }
+            }
+          },
+          "border": {
+            "color": {
+              "default": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера кнопок перелистывания"
+              },
+              "hover": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера кнопок перелистывания при hover"
+              }
+            }
+          },
+          "icon": {
+            "color": {
+              "default": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет иконки кнопки перелистывания"
+              },
+              "hover": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет иконки кнопки перелистывания при hover"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

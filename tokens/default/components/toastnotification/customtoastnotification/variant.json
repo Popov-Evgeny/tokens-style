@@ -1,0 +1,25 @@
+{
+  "customtoastnotification": {
+    "primary": {
+      "bg": {
+        "color": {
+          "value": "{bg.elevated.xl}",
+          "type": "color",
+          "description": "Цвет фона"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{none}",
+          "type": "color",
+          "description": "Цвет бордера"
+        }
+      },
+      "shadow": {
+        "value": "{shadow.bottom.l}",
+        "type": "boxShadow",
+        "description": "Тень"
+      }
+    }
+  }
+}

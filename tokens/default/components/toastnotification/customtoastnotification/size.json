@@ -1,0 +1,16 @@
+{
+  "customtoastnotification": {
+    "m": {
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов"
+      }
+    }
+  }
+}

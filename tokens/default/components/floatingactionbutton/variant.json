@@ -1,0 +1,384 @@
+{
+  "floatingactionbutton": {
+    "primary": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{accent.default}",
+            "type": "color",
+            "description": "Цвет фона кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет фона кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет фона кнопки при active"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера кнопки при active"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{accent.on-accent}",
+            "type": "color",
+            "description": "Цвет иконки кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.on-accent}",
+            "type": "color",
+            "description": "Цвет иконки кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.on-accent}",
+            "type": "color",
+            "description": "Цвет иконки кнопки при active"
+          }
+        }
+      },
+      "label": {
+        "color": {
+          "default": {
+            "value": "{accent.on-accent}",
+            "type": "color",
+            "description": "Цвет лейбла кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.on-accent}",
+            "type": "color",
+            "description": "Цвет лейбла кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.on-accent}",
+            "type": "color",
+            "description": "Цвет лейбла кнопки при active"
+          }
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{shadow.bottom.l}",
+          "type": "boxShadow",
+          "description": "Тень кнопки в состоянии покоя"
+        },
+        "hover": {
+          "value": "{shadow.bottom.l}",
+          "type": "boxShadow",
+          "description": "Тень кнопки при hover (наведении курсора)"
+        },
+        "active": {
+          "value": "{shadow.bottom.l}",
+          "type": "boxShadow",
+          "description": "Тень кнопки при active"
+        }
+      },
+      "menuitem": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона при active"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active"
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.active}",
+              "type": "color",
+              "description": "Цвет лейбла при active"
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет иконки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет иконки при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.active}",
+              "type": "color",
+              "description": "Цвет иконки при active"
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.bottom.xl}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.bottom.xl}",
+            "type": "boxShadow",
+            "description": "Тень при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{shadow.bottom.xl}",
+            "type": "boxShadow",
+            "description": "Тень при active"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "shadow": {
+        "default": {
+          "value": "{shadow.bottom.l}",
+          "type": "boxShadow",
+          "description": "Тень кнопки в состоянии покоя"
+        },
+        "hover": {
+          "value": "{shadow.bottom.l}",
+          "type": "boxShadow",
+          "description": "Тень кнопки при hover (наведении курсора)"
+        },
+        "active": {
+          "value": "{shadow.bottom.l}",
+          "type": "boxShadow",
+          "description": "Тень кнопки при active"
+        }
+      },
+      "menuitem": {
+        "shadow": {
+          "default": {
+            "value": "{shadow.bottom.xl}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.bottom.xl}",
+            "type": "boxShadow",
+            "description": "Тень при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{shadow.bottom.xl}",
+            "type": "boxShadow",
+            "description": "Тень при active"
+          }
+        },
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона при active"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active"
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.active}",
+              "type": "color",
+              "description": "Цвет лейбла при active"
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет иконки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет иконки при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.active}",
+              "type": "color",
+              "description": "Цвет иконки при active"
+            }
+          }
+        }
+      },
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{bg.elevated.xl}",
+            "type": "color",
+            "description": "Цвет фона кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{neutral.container-hover}",
+            "type": "color",
+            "description": "Цвет фона кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{neutral.container-active}",
+            "type": "color",
+            "description": "Цвет фона кнопки при active"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера кнопки при active"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет иконки кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет иконки кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет иконки кнопки при active"
+          }
+        }
+      },
+      "label": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла кнопки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла кнопки при active"
+          }
+        }
+      }
+    }
+  }
+}

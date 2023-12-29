@@ -1,0 +1,72 @@
+{
+  "iconbutton": {
+    "xl": {
+      "height": {
+        "value": "{size.xl}",
+        "type": "sizing",
+        "description": "Высота и ширина IconButton"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов IconButton"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера IconButton"
+      }
+    },
+    "l": {
+      "height": {
+        "value": "{size.l}",
+        "type": "sizing",
+        "description": "Высота и ширина IconButton"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов IconButton"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера IconButton"
+      }
+    },
+    "m": {
+      "height": {
+        "value": "{size.m}",
+        "type": "sizing",
+        "description": "Высота и ширина IconButton"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов IconButton"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера IconButton"
+      }
+    },
+    "s": {
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота и ширина IconButton"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов IconButton"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера IconButton"
+      }
+    }
+  }
+}

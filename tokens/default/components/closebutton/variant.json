@@ -1,0 +1,80 @@
+{
+  "closebutton": {
+    "primary": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{neutral.container-default}",
+            "type": "color",
+            "description": "Цвет фона в состоянии покоя"
+          },
+          "hover": {
+            "value": "{neutral.container-hover}",
+            "type": "color",
+            "description": "Цвет фона при hover"
+          },
+          "active": {
+            "value": "{neutral.container-active}",
+            "type": "color",
+            "description": "Цвет фона при active"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера в состоянии покоя"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера при hover"
+          },
+          "active": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера при active"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{neutral.on-container}",
+            "type": "color",
+            "description": "Цвет иконки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{neutral.hover}",
+            "type": "color",
+            "description": "Цвет иконки при hover"
+          },
+          "active": {
+            "value": "{neutral.hover}",
+            "type": "color",
+            "description": "Цвет иконки при active"
+          }
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Цвет тени в состоянии покоя"
+        },
+        "hover": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Цвет тени при hover"
+        },
+        "active": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Цвет тени при active"
+        }
+      }
+    }
+  }
+}

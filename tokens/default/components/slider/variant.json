@@ -1,0 +1,248 @@
+{
+  "slider": {
+    "primary": {
+      "track": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{neutral.container-default}",
+              "type": "color",
+              "description": "Цвет трека в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.container-default}",
+              "type": "color",
+              "description": "Цвет трека при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет трека при disabled"
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень трека в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень трека при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень трека при hover"
+          }
+        }
+      },
+      "highlighttrack": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет активного трека в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет активного трека при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{neutral.container-hover}",
+              "type": "color",
+              "description": "Цвет активного трека при disabled"
+            }
+          }
+        },
+        "steps": {
+          "color": {
+            "default": {
+              "value": "{accent.muted}",
+              "type": "color",
+              "description": "Цвет шагов на активном треке"
+            },
+            "hover": {
+              "value": "{accent.muted}",
+              "type": "color",
+              "description": "Цвет шагов на активном треке при hover"
+            }
+          }
+        }
+      },
+      "handle": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет ручки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет ручки при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{bg.surface5}",
+              "type": "color",
+              "description": "Цвет ручки при disabled"
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.bottom.controls}",
+            "type": "boxShadow",
+            "description": "Тень ручки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.bottom.controls}",
+            "type": "boxShadow",
+            "description": "Тень ручки при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{shadow.bottom.controls}",
+            "type": "boxShadow",
+            "description": "Тень ручки при hover"
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера ручки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера ручки при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера ручки при disabled"
+            }
+          }
+        }
+      },
+      "label": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет лейбла при disabled"
+          }
+        }
+      },
+      "counter": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет счетчика"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет счетчика при disabled"
+          }
+        }
+      },
+      "marks": {
+        "color": {
+          "default": {
+            "value": "{fg.muted}",
+            "type": "color",
+            "description": "Цвет марок"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет марок при disabled"
+          }
+        }
+      },
+      "tracksteps": {
+        "color": {
+          "default": {
+            "value": "{neutral.muted}",
+            "type": "color",
+            "description": "Цвет шагов на треке"
+          },
+          "hover": {
+            "value": "{neutral.muted}",
+            "type": "color",
+            "description": "Цвет шагов на треке при hover"
+          }
+        }
+      },
+      "tooltip": {
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера тултипа"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера тултипа при disabled"
+            }
+          }
+        },
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона тултипа"
+            },
+            "disabled": {
+              "value": "{bg.elevated.xl}",
+              "type": "color",
+              "description": "Цвет фона тултипа при disabled"
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.bottom.l}",
+            "type": "boxShadow",
+            "description": "Тень тултипа в состоянии покоя"
+          },
+          "disabled": {
+            "value": "{shadow.bottom.l}",
+            "type": "boxShadow",
+            "description": "Тень тултипа при hover"
+          }
+        },
+        "title": {
+          "color": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет тайтла тултипа"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет тайтла тултипа при disabled"
+            }
+          }
+        }
+      }
+    }
+  }
+}

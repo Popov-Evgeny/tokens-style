@@ -1,0 +1,42 @@
+$btn-mix-color-primary: #1E6599FF;
+$btn-mix-color: #AD2102FF;
+$btn-h-color: #ffffff;
+
+@function mix-colors($color1, $color2, $weight) {
+  $weight: max(min($weight, 100), 0);
+
+  $rgba1: if(type-of($color1) == 'color', $color1, rgba($color1, 1));
+  $rgba2: if(type-of($color2) == 'color', $color2, rgba($color2, 1));
+
+  $mixedColor: mix($rgba1, $rgba2, $weight);
+
+  $redResult: red($mixedColor);
+  $greenResult: green($mixedColor);
+  $blueResult: blue($mixedColor);
+  $alphaResult: alpha($mixedColor);
+
+  @return rgba($redResult, $greenResult, $blueResult, $alphaResult);
+};
+
+.btn-block {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  background: $btn-mix-color-primary;
+
+  //&:hover {
+  //  background: color-mix(in srgb, $btn-mix-color-primary 50%, $btn-h-color); //color(srgb 0.558824 0.698039 0.8)
+  //}
+
+  &:hover {
+    background: mix-colors($btn-mix-color-primary, $btn-h-color, 50%); //color(srgb 0.558824 0.698039 0.8)
+  }
+}

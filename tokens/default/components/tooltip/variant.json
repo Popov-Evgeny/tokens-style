@@ -1,0 +1,39 @@
+{
+  "tooltip": {
+    "primary": {
+      "bg": {
+        "color": {
+          "value": "{bg.elevated.xl}",
+          "type": "color",
+          "description": "Цвет фона"
+        }
+      },
+      "border": {
+        "color": {
+          "value": "{none}",
+          "type": "color",
+          "description": "Цвет бордера"
+        }
+      },
+      "title": {
+        "color": {
+          "value": "{fg.default}",
+          "type": "color",
+          "description": "Цвет заголовка"
+        }
+      },
+      "subtitle": {
+        "color": {
+          "value": "{fg.soft}",
+          "type": "color",
+          "description": "Цвет подзаголовка"
+        }
+      },
+      "shadow": {
+        "value": "{shadow.bottom.l}",
+        "type": "boxShadow",
+        "description": "Тень"
+      }
+    }
+  }
+}

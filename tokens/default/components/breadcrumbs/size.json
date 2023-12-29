@@ -1,0 +1,52 @@
+{
+  "breadcrumbs": {
+    "s": {
+      "item": {
+        "padding-vertical": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Padding сверху и снизу"
+        },
+        "font": {
+          "value": "{font.description.l-strong}",
+          "type": "typography",
+          "description": "Типографика лейбла"
+        }
+      },
+      "divider": {
+        "height": {
+          "value": "{size.s}",
+          "type": "sizing",
+          "description": "Высота дивайдера-точки"
+        }
+      },
+      "dividermenu": {
+        "height": {
+          "value": "{size.s}",
+          "type": "sizing",
+          "description": "Высота и ширина дивайдера-меню"
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера дивайдера-меню"
+        },
+        "border-radius": {
+          "value": "{border-radius.s}",
+          "type": "borderRadius",
+          "description": "Скругление углов дивайдера-меню"
+        }
+      },
+      "spacing-horizontal": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Расстояние между крошками по горизонтали"
+      },
+      "spacing-vertical": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Расстояние между крошками по вертикали"
+      }
+    }
+  }
+}

@@ -1,0 +1,972 @@
+{
+  "button": {
+    "primary": {
+      "accent": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.active}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      },
+      "neutral": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{neutral.default}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.active}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{neutral.on-neutral}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.on-neutral}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.on-neutral}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{neutral.on-neutral}",
+              "type": "color",
+              "description": "Цвет иконки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.on-neutral}",
+              "type": "color",
+              "description": "Цвет иконки при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.on-neutral}",
+              "type": "color",
+              "description": "Цвет иконки при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет иконки при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "accent": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{accent.container-default}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.container-hover}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.container-active}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{accent.on-container}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{accent.on-container}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      },
+      "neutral": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{neutral.container-default}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.container-hover}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.container-active}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{neutral.on-container}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{neutral.on-container}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      }
+    },
+    "outline": {
+      "accent": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.container-default}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.container-hover}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{accent.muted}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.soft}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.soft}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{border.muted}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      },
+      "neutral": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.container-default}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.container-hover}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{border.muted}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{border.soft}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{border.soft}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{border.muted}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{neutral.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{neutral.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      }
+    },
+    "ghost": {
+      "accent": {
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        },
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.container-default}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.container-hover}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        }
+      },
+      "neutral": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.container-default}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.container-hover}",
+              "type": "color",
+              "description": "Цвет фона при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{neutral.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{neutral.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.hover}",
+              "type": "color",
+              "description": "Цвет лейбла при active (нажатие)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при hover"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень в состоянии disabled"
+          }
+        }
+      }
+    }
+  }
+}

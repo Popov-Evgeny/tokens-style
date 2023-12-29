@@ -1,0 +1,28 @@
+{
+  "tabsgroup": {
+    "m": {
+      "spacing": {
+        "value": "{spacing.5x}",
+        "type": "spacing",
+        "description": "Расстояние между табами"
+      },
+      "border-width": {
+        "value": "{border-width.controls}",
+        "type": "borderWidth",
+        "description": "Толщина нижнего бордера группы табов"
+      }
+    },
+    "s": {
+      "spacing": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Расстояние между табами"
+      },
+      "border-width": {
+        "value": "{border-width.controls}",
+        "type": "borderWidth",
+        "description": "Толщина нижнего бордера группы табов"
+      }
+    }
+  }
+}

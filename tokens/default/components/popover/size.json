@@ -1,0 +1,53 @@
+{
+  "popover": {
+    "m": {
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов «пузыря» поповера "
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "pointer": {
+        "height": {
+          "value": "8",
+          "type": "sizing",
+          "description": "Высота стрелки"
+        },
+        "width": {
+          "value": "14",
+          "type": "sizing",
+          "description": "Ширина стрелки"
+        },
+        "offset": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Смещение стрелки от границы поповера (в сторону от угла)"
+        }
+      },
+      "padding-left": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента слева"
+      },
+      "padding-right": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента справа"
+      },
+      "padding-top": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента сверху"
+      },
+      "padding-bottom": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента снизу"
+      }
+    }
+  }
+}

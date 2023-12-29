@@ -1,0 +1,158 @@
+{
+  "tooltip": {
+    "m": {
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов «пузыря» тултипа "
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "pointer": {
+        "height": {
+          "value": "8",
+          "type": "sizing",
+          "description": "Высота стрелки"
+        },
+        "width": {
+          "value": "14",
+          "type": "sizing",
+          "description": "Ширина стрелки"
+        },
+        "offset": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Смещение стрелки от границы тултипа (в сторону от угла)"
+        }
+      },
+      "padding-left": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента слева"
+      },
+      "padding-right": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента справа"
+      },
+      "padding-top": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента сверху"
+      },
+      "padding-bottom": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента снизу"
+      },
+      "content": {
+        "spacing": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Расстояние между заголовком и подзаголовком"
+        }
+      },
+      "closebutton": {
+        "spacing": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Расстояние между контентом и кнопкой CloseButton"
+        }
+      },
+      "title": {
+        "font": {
+          "value": "{font.body.m-strong}",
+          "type": "typography",
+          "description": "Типографика заголовка"
+        }
+      },
+      "subtitle": {
+        "font": {
+          "value": "{font.description.l}",
+          "type": "typography",
+          "description": "Типографика подзаголовка"
+        }
+      }
+    },
+    "s": {
+      "pointer": {
+        "height": {
+          "value": "8",
+          "type": "sizing",
+          "description": "Высота стрелки"
+        },
+        "width": {
+          "value": "14",
+          "type": "sizing",
+          "description": "Ширина стрелки"
+        },
+        "offset": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Смещение стрелки от границы тултипа (в сторону от угла)"
+        }
+      },
+      "padding-left": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента слева"
+      },
+      "padding-right": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента справа"
+      },
+      "padding-top": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента сверху"
+      },
+      "padding-bottom": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Отступ от границ «пузыря» до контента снизу"
+      },
+      "content": {
+        "spacing": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Расстояние между заголовком и подзаголовком"
+        }
+      },
+      "closebutton": {
+        "spacing": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Расстояние между контентом и кнопкой CloseButton"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов «пузыря» тултипа "
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "title": {
+        "font": {
+          "value": "{font.body.s-strong}",
+          "type": "typography",
+          "description": "Типографика заголовка"
+        }
+      },
+      "subtitle": {
+        "font": {
+          "value": "{font.description.s}",
+          "type": "typography",
+          "description": "Типографика подзаголовка"
+        }
+      }
+    }
+  }
+}

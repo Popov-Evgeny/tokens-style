@@ -1,0 +1,68 @@
+{
+  "badge": {
+    "s": {
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота"
+      },
+      "padding-left": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Боковой отступ слева"
+      },
+      "padding-right": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Боковой отступ справа"
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов"
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "font": {
+        "value": "{font.description.s-strong}",
+        "type": "alias",
+        "description": "Типографика лейбла"
+      }
+    },
+    "2xs": {
+      "height": {
+        "value": "{size.2xs}",
+        "type": "sizing",
+        "description": "Высота"
+      },
+      "padding-left": {
+        "value": "{spacing.1,5x}",
+        "type": "spacing",
+        "description": "Боковой отступ слева"
+      },
+      "padding-right": {
+        "value": "{spacing.1,5x}",
+        "type": "spacing",
+        "description": "Боковой отступ справа"
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов"
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "font": {
+        "value": "{font.description.s-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      }
+    }
+  }
+}

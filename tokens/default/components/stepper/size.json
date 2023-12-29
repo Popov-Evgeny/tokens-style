@@ -1,0 +1,106 @@
+{
+  "stepper": {
+    "l": {
+      "height": {
+        "value": "{size.l}",
+        "type": "sizing",
+        "description": "Высота"
+      },
+      "divider": {
+        "height": {
+          "value": "{size.s}",
+          "type": "sizing",
+          "description": "Высота линии разделителя"
+        }
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "spacing": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и боковыми кнопками"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов всего компонента"
+      },
+      "button": {
+        "border-radius-inside": {
+          "value": "{border-radius.none}",
+          "type": "borderRadius",
+          "description": "Скругление углов боковых кнопок с внутренней стороны"
+        },
+        "border-radius-outside": {
+          "value": "{border-radius.buttons}",
+          "type": "borderRadius",
+          "description": "Скругление углов боковых кнопок с внешней стороны"
+        },
+        "border-width": {
+          "value": "{border-width.buttons}",
+          "type": "borderWidth",
+          "description": "Толщина бордера кнопки"
+        }
+      },
+      "font": {
+        "value": "{font.body.m-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      }
+    },
+    "m": {
+      "height": {
+        "value": "{size.m}",
+        "type": "sizing",
+        "description": "Высота"
+      },
+      "divider": {
+        "height": {
+          "value": "{size.2xs}",
+          "type": "sizing",
+          "description": "Высота линии разделителя"
+        }
+      },
+      "spacing": {
+        "value": "{spacing.0,5x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и боковыми кнопками"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов всего компонента"
+      },
+      "button": {
+        "border-radius-inside": {
+          "value": "{border-radius.none}",
+          "type": "borderRadius",
+          "description": "Скругление углов боковых кнопок с внутренней стороны"
+        },
+        "border-radius-outside": {
+          "value": "{border-radius.buttons}",
+          "type": "borderRadius",
+          "description": "Скругление углов боковых кнопок с внешней стороны"
+        },
+        "border-width": {
+          "value": "{border-width.buttons}",
+          "type": "borderWidth",
+          "description": "Толщина бордера кнопки"
+        }
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "font": {
+        "value": "{font.body.s-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      }
+    }
+  }
+}

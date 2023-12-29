@@ -1,0 +1,32 @@
+{
+  "loader": {
+    "primary": {
+      "bg": {
+        "firstColor": {
+          "value": "{accent.default}",
+          "type": "color",
+          "description": "Цвет фона 1"
+        },
+        "secondColor": {
+          "value": "{accent.muted}",
+          "type": "color",
+          "description": "Цвет фона 2"
+        }
+      }
+    },
+    "secondary": {
+      "bg": {
+        "firstColor": {
+          "value": "{neutral.default}",
+          "type": "color",
+          "description": "Цвет фона 1"
+        },
+        "secondColor": {
+          "value": "{neutral.muted}",
+          "type": "color",
+          "description": "Цвет фона 2"
+        }
+      }
+    }
+  }
+}

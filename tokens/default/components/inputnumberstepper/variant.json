@@ -1,0 +1,252 @@
+{
+  "inputnumberstepper": {
+    "primary": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона поля ввода"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона поля ввода при hover (наведении курсора)"
+          },
+          "focus": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона поля ввода при focus"
+          },
+          "error": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона поля ввода в состоянии ошибки"
+          },
+          "disabled": {
+            "value": "{bg.disabled}",
+            "type": "color",
+            "description": "Цвет фона поля ввода при disabled"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "value": "{border.muted}",
+            "type": "color",
+            "description": "Цвет бордера поля ввода"
+          },
+          "hover": {
+            "value": "{accent.soft}",
+            "type": "color",
+            "description": "Цвет бордера поля ввода при hover (наведении курсора)"
+          },
+          "focus": {
+            "value": "{accent.soft}",
+            "type": "color",
+            "description": "Цвет бордера поля ввода при focus"
+          },
+          "error": {
+            "value": "{border.muted}",
+            "type": "color",
+            "description": "Цвет бордера поля ввода в состоянии ошибки"
+          },
+          "disabled": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера поля ввода при disabled"
+          }
+        }
+      },
+      "inputvalue": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет значения поля ввода"
+          },
+          "hover": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет значения поля ввода при hover (наведении курсора)"
+          },
+          "focus": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет значения поля ввода при focus"
+          },
+          "error": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет значения поля ввода в состоянии ошибки"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет значения поля ввода при disabled"
+          }
+        }
+      },
+      "hint": {
+        "color": {
+          "default": {
+            "value": "{fg.muted}",
+            "type": "color",
+            "description": "Цвет хинта поля ввода"
+          },
+          "hover": {
+            "value": "{fg.muted}",
+            "type": "color",
+            "description": "Цвет хинта поля ввода при hover (наведении курсора)"
+          },
+          "focus": {
+            "value": "{fg.muted}",
+            "type": "color",
+            "description": "Цвет хинта поля ввода при focus"
+          },
+          "error": {
+            "value": "{error.default}",
+            "type": "color",
+            "description": "Цвет хинта поля ввода в состоянии ошибки"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет хинта поля ввода при disabled"
+          }
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень поля ввода"
+        },
+        "hover": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень поля ввода при hover (наведении курсора)"
+        },
+        "focus": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень поля ввода при focus"
+        },
+        "error": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень поля ввода при error"
+        },
+        "disabled": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень поля ввода при disabled"
+        }
+      },
+      "button": {
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень кнопки"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень кнопки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень кнопки при active"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень кнопки при disabled"
+          }
+        },
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона кнопки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.container-hover}",
+              "type": "color",
+              "description": "Цвет фона кнопки при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.container-active}",
+              "type": "color",
+              "description": "Цвет фона кнопки при active"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет фона кнопки при disabled"
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера кнопки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{neutral.container-hover}",
+              "type": "color",
+              "description": "Цвет бордера кнопки при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{neutral.container-active}",
+              "type": "color",
+              "description": "Цвет бордера кнопки при active"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера кнопки при disabled"
+            }
+          }
+        },
+        "icon": {
+          "color": {
+            "default": {
+              "value": "{fg.soft}",
+              "type": "color",
+              "description": "Цвет иконки кнопки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{fg.soft}",
+              "type": "color",
+              "description": "Цвет иконки кнопки при hover (наведении курсора)"
+            },
+            "active": {
+              "value": "{fg.soft}",
+              "type": "color",
+              "description": "Цвет иконки кнопки при active"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет иконки кнопки при disabled"
+            }
+          },
+          "iconsingle": {
+            "color": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет иконки кнопки при disabled (случай когдазадизейблена только одна иконка)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

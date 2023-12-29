@@ -32,11 +32,11 @@ $btn-h-color: #ffffff;
   border-radius: 4px;
   background: $btn-mix-color-primary;
 
-  &:hover {
-    background: color-mix(in srgb, $btn-mix-color-primary 50%, $btn-h-color); //color(srgb 0.558824 0.698039 0.8)
-  }
-
   //&:hover {
-  //  background: mix-colors($btn-mix-color-primary, $btn-h-color, 50%); //color(srgb 0.558824 0.698039 0.8)
+  //  background: color-mix(in srgb, $btn-mix-color-primary 50%, $btn-h-color); //color(srgb 0.558824 0.698039 0.8)
   //}
+
+  &:hover {
+    background: mix-colors($btn-mix-color-primary, $btn-h-color, 50%); //color(srgb 0.558824 0.698039 0.8)
+  }
 }

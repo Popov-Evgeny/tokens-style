@@ -42,6 +42,7 @@ $test2: mix-colors($btn-mix-color-primary, $btn-h-color, 50%);
   justify-content: center;
   color: black;
   font-weight: bold;
+  border: 2px solid black;
 }
 
 .test1 {

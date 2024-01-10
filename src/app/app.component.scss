@@ -1,3 +1,6 @@
+@use 'sass:color';
+@use 'sass:meta';
+
 $btn-mix-color-primary: #1E6599FF;
 $btn-mix-color: #AD2102FF;
 $btn-h-color: #ffffff;
@@ -5,18 +8,21 @@ $btn-h-color: #ffffff;
 @function mix-colors($color1, $color2, $weight) {
   $weight: max(min($weight, 100), 0);
 
-  $rgba1: if(type-of($color1) == 'color', $color1, rgba($color1, 1));
-  $rgba2: if(type-of($color2) == 'color', $color2, rgba($color2, 1));
+  $cl1: $color1;
+  $cl2: $color2;
 
-  $mixedColor: mix($rgba1, $rgba2, $weight);
+  $rgba1: if(meta.type-of($cl1) == 'color', $cl1, rgba($cl1, 1));
+  $rgba2: if(meta.type-of($cl2) == 'color', $cl2, rgba($cl2, 1));
 
-  $redResult: red($mixedColor);
-  $greenResult: green($mixedColor);
-  $blueResult: blue($mixedColor);
-  $alphaResult: alpha($mixedColor);
+  $mixed-color: color.mix($rgba1, $rgba2, $weight);
 
-  @return rgba($redResult, $greenResult, $blueResult, $alphaResult);
-};
+  $red-result: color.red($mixed-color);
+  $green-result: color.green($mixed-color);
+  $blue-result: color.blue($mixed-color);
+  $alpha-result: color.alpha($mixed-color);
+
+  @return rgba($red-result, $green-result, $blue-result, $alpha-result);
+}
 
 .btn-block {
   display: flex;
@@ -37,6 +43,6 @@ $btn-h-color: #ffffff;
   //}
 
   &:hover {
-    background: mix($btn-mix-color-primary, $btn-h-color, 50%); //color(srgb 0.558824 0.698039 0.8)
+    background: mix-colors($btn-mix-color-primary, $btn-h-color, 50%); //color(srgb 0.558824 0.698039 0.8)
   }
 }

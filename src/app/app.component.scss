@@ -24,6 +24,9 @@ $btn-h-color: #ffffff;
   @return rgba($red-result, $green-result, $blue-result, $alpha-result);
 }
 
+$test1: color-mix(in srgb, $btn-mix-color-primary 50%, $btn-h-color);
+$test2: mix-colors($btn-mix-color-primary, $btn-h-color, 50%);
+
 .btn-block {
   display: flex;
   align-content: center;
@@ -43,6 +46,6 @@ $btn-h-color: #ffffff;
   //}
 
   &:hover {
-    background: var(color-mix(in srgb, $btn-mix-color-primary 50%, $btn-h-color), mix-colors($btn-mix-color-primary, $btn-h-color, 50%)); //color(srgb 0.558824 0.698039 0.8)
+    background: var(--test1, $test2); //color(srgb 0.558824 0.698039 0.8)
   }
 }

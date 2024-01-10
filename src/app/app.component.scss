@@ -46,7 +46,7 @@ $test2: mix-colors($btn-mix-color-primary, $btn-h-color, 50%);
 }
 
 .test1 {
-  background: var(--test1, $test2);
+  background: var($test1, $test2);
 }
 
 .test2 {

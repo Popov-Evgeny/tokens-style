@@ -35,14 +35,14 @@ $test2: mix-colors($btn-mix-color-primary, $btn-h-color, 50%);
 
 .test {
   margin: 20px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: black;
   font-weight: bold;
-  border: 2px solid black;
+  border: 2px solid green;
 }
 
 .test1 {

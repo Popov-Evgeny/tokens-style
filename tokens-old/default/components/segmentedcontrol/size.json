@@ -1,0 +1,181 @@
+{
+  "segmentedcontrol": {
+    "l": {
+      "height": {
+        "value": "{size.l}",
+        "type": "sizing",
+        "description": "Высота всего компонента"
+      },
+      "border-radius": {
+        "value": "{border-radius.2xl}",
+        "type": "borderRadius",
+        "description": "Радиус скругления углов"
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "padding-horizontal": {
+        "value": "{spacing.1,5x}",
+        "type": "spacing",
+        "description": "Отступы слева и справа"
+      },
+      "padding-vertical": {
+        "value": "{spacing.1,5x}",
+        "type": "spacing",
+        "description": "Отступы сверху и снизу"
+      },
+      "spacing": {
+        "value": "{spacing.none}",
+        "type": "spacing",
+        "description": "Расстояние между сегментами"
+      },
+      "segment": {
+        "border-radius": {
+          "value": "{border-radius.2xl}",
+          "type": "borderRadius",
+          "description": "Радиус скругления углов сегмента"
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера сегмента"
+        },
+        "padding-horizontal": {
+          "value": "{spacing.4x}",
+          "type": "spacing",
+          "description": "Отступы слева и справа в сегменте"
+        },
+        "spacing": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Расстояние между лейблом и иконкой"
+        },
+        "font": {
+          "value": "{font.body.m-strong}",
+          "type": "typography",
+          "description": "Типографика лейбла"
+        }
+      }
+    },
+    "m": {
+      "height": {
+        "value": "{size.m}",
+        "type": "sizing",
+        "description": "Высота всего компонента"
+      },
+      "padding-horizontal": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступы слева и справа"
+      },
+      "padding-vertical": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступы сверху и снизу"
+      },
+      "spacing": {
+        "value": "{spacing.none}",
+        "type": "spacing",
+        "description": "Расстояние между сегментами"
+      },
+      "border-radius": {
+        "value": "{border-radius.2xl}",
+        "type": "borderRadius",
+        "description": "Радиус скругления углов"
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "segment": {
+        "padding-horizontal": {
+          "value": "{spacing.3x}",
+          "type": "spacing",
+          "description": "Отступы слева и справа в сегменте"
+        },
+        "spacing": {
+          "value": "{spacing.1,5x}",
+          "type": "spacing",
+          "description": "Расстояние между лейблом и иконкой"
+        },
+        "border-radius": {
+          "value": "{border-radius.2xl}",
+          "type": "borderRadius",
+          "description": "Радиус скругления углов сегмента"
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера сегмента"
+        },
+        "font": {
+          "value": "{font.body.s-strong}",
+          "type": "typography",
+          "description": "Типографика лейбла"
+        }
+      }
+    },
+    "s": {
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота всего компонента"
+      },
+      "padding-horizontal": {
+        "value": "{spacing.0,5x}",
+        "type": "spacing",
+        "description": "Отступы слева и справа"
+      },
+      "padding-vertical": {
+        "value": "{spacing.0,5x}",
+        "type": "spacing",
+        "description": "Отступы сверху и снизу"
+      },
+      "spacing": {
+        "value": "{spacing.none}",
+        "type": "spacing",
+        "description": "Расстояние между сегментами"
+      },
+      "border-radius": {
+        "value": "{border-radius.2xl}",
+        "type": "borderRadius",
+        "description": "Радиус скругления углов"
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "segment": {
+        "padding-horizontal": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Отступы слева и справа в сегменте"
+        },
+        "spacing": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Расстояние между лейблом и иконкой"
+        },
+        "border-radius": {
+          "value": "{border-radius.2xl}",
+          "type": "borderRadius",
+          "description": "Радиус скругления углов сегмента"
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера сегмента"
+        },
+        "font": {
+          "value": "{font.description.l-strong}",
+          "type": "typography",
+          "description": "Типографика лейбла"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@mixin simple-elements() {
+  animation: yes-loading 1.4s ease infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes yes-loading {
+  0% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+
+
+.flex {
+  display: flex;
+  gap: 30px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  margin: 10px;
+  border-radius: 8px;
+  padding: 100px;
+  gap: 50px;
+}
+
+.prev {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+
+  & div {
+    @include simple-elements();
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 140px;
+    border: 2px solid black;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+.checkboxes-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+
+:host {
+  ::ng-deep {
+    .formRow {
+      & div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+        margin: 5px;
+      }
+    }
+
+    .btn {
+      background: green;
+      padding: 15px 30px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 18px;
+    }
+  }
+}
+
+.yes {
+  @include simple-elements();
+  background:linear-gradient(90deg, hsla(0deg 0% 75% / 20%) 25%, hsla(0deg 0% 50% / 25%) 43%, hsla(0deg 0% 50% / 20%) 76%);
+}

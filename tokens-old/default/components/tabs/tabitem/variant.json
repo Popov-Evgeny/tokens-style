@@ -1,0 +1,211 @@
+{
+  "tabitem": {
+    "primary": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона в состоянии покоя"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона при disabled"
+          },
+          "selected": {
+            "default": {
+              "value": "{accent.container-default}",
+              "type": "color",
+              "description": "Цвет фона selected в состоянии покоя"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона selected при disabled"
+            }
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера в состоянии покоя"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера при disabled"
+          },
+          "selected": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера selected в состоянии покоя"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера selected при disabled"
+            }
+          }
+        }
+      },
+      "label": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла в состоянии покоя"
+          },
+          "hover": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет лейбла при disabled"
+          },
+          "selected": {
+            "default": {
+              "value": "{accent.on-container}",
+              "type": "color",
+              "description": "Цвет лейбла selected в состоянии покоя"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла selected при disabled"
+            }
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет иконки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет иконки при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет иконки при disabled"
+          },
+          "selected": {
+            "default": {
+              "value": "{accent.on-container}",
+              "type": "color",
+              "description": "Цвет иконки selected в состоянии покоя"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет иконки selected при disabled"
+            }
+          }
+        }
+      },
+      "dot": {
+        "color": {
+          "default": {
+            "value": "{error.default}",
+            "type": "color",
+            "description": "Цвет индикатора dot в состоянии покоя"
+          },
+          "hover": {
+            "value": "{error.default}",
+            "type": "color",
+            "description": "Цвет индикатора dot при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{error.default}",
+            "type": "color",
+            "description": "Цвет индикатора dot при disabled"
+          },
+          "selected": {
+            "default": {
+              "value": "{error.default}",
+              "type": "color",
+              "description": "Цвет индикатора dot selected в состоянии покоя"
+            },
+            "disabled": {
+              "value": "{error.default}",
+              "type": "color",
+              "description": "Цвет индикатора dot selected при disabled"
+            }
+          }
+        }
+      },
+      "highlight": {
+        "color": {
+          "hover": {
+            "value": "{accent.default}",
+            "type": "color",
+            "description": "Цвет линии подсветки при hover (наведении курсора)"
+          },
+          "selected": {
+            "default": {
+              "value": "{accent.on-container}",
+              "type": "color",
+              "description": "Цвет линии подсветки selected в состоянии покоя"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет линии подсветки selected при disabled"
+            }
+          }
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень в состоянии покоя"
+        },
+        "hover": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень при hover (наведении курсора)"
+        },
+        "disabled": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень при disabled"
+        },
+        "selected": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень selected в состоянии покоя"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень selected при disabled"
+          }
+        }
+      }
+    }
+  }
+}

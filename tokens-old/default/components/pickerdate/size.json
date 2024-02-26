@@ -1,0 +1,182 @@
+{
+  "pickerdate": {
+    "m": {
+      "width": {
+        "value": "280",
+        "type": "sizing",
+        "description": "Ширина общего контейнера пикера"
+      },
+      "border-width": {
+        "value": "{border-width.none}",
+        "type": "borderWidth",
+        "description": "Толщина обводки общего контейнера пикера"
+      },
+      "border-radius": {
+        "value": "{border-radius.m}",
+        "type": "borderRadius",
+        "description": "Скругление углов общего контейнера пикера"
+      },
+      "calendar": {
+        "padding-vertical": {
+          "value": "{spacing.3x}",
+          "type": "spacing",
+          "description": "Padding блока с выбором даты сверху и снизу"
+        },
+        "padding-horizontal": {
+          "value": "14",
+          "type": "spacing",
+          "description": "Padding блока с выбором даты слева и справа"
+        },
+        "digitdate": {
+          "height": {
+            "value": "{size.m}",
+            "type": "sizing",
+            "description": "Высота ячейки c числовыми датами"
+          }
+        },
+        "date": {
+          "border-width": {
+            "value": "{border-width.none}",
+            "type": "borderWidth",
+            "description": "Толщина обводки ячейки"
+          },
+          "border-radius": {
+            "value": "{border-radius.m}",
+            "type": "borderRadius",
+            "description": "Скругление углов ячейки"
+          },
+          "font": {
+            "value": "{font.body.s-strong}",
+            "type": "typography",
+            "description": "Типографика в ячейке "
+          }
+        },
+        "textdate": {
+          "height": {
+            "value": "32",
+            "type": "sizing",
+            "description": "Высота ячейки (месяц, год, время)"
+          }
+        },
+        "dayofweek": {
+          "height": {
+            "value": "{size.2xs}",
+            "type": "sizing",
+            "description": "Высота ячейки дней недели календаря"
+          },
+          "font": {
+            "value": "{font.description.l}",
+            "type": "typography",
+            "description": "Типографика дней недели календаря"
+          }
+        },
+        "height": {
+          "value": "220",
+          "type": "sizing",
+          "description": "Высота календаря"
+        }
+      },
+      "controlpanel": {
+        "padding-horizontal": {
+          "value": "{spacing.3x}",
+          "type": "spacing",
+          "description": "Отступы в верхней панели слева и справа"
+        },
+        "height": {
+          "value": "60",
+          "type": "sizing",
+          "description": "Высота верхней панели"
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера верхней панели"
+        },
+        "control": {
+          "height": {
+            "value": "32",
+            "type": "sizing",
+            "description": "Высота кнопок-контролов (month, year, fullDate)"
+          },
+          "border-radius": {
+            "value": "{border-radius.buttons}",
+            "type": "borderRadius",
+            "description": "Скругление углов кнопок-контролов (month, year, fullDate)"
+          },
+          "border-width": {
+            "value": "{border-width.buttons}",
+            "type": "borderWidth",
+            "description": "Толщина бордера кнопок-контролов (month, year, fullDate)"
+          },
+          "padding-horizontal": {
+            "value": "{spacing.2x}",
+            "type": "spacing",
+            "description": "Padding слева и справа у кнопок-контролов(month, year, fullDate)"
+          }
+        },
+        "month": {
+          "font": {
+            "default": {
+              "value": "{font.body.m-strong}",
+              "type": "typography",
+              "description": "Типографика лейбла кнопки для месяца"
+            },
+            "hover": {
+              "value": "{font.body.m-strong}",
+              "type": "typography",
+              "description": "Типографика лейбла кнопки для месяца при hover (наведении курсора)"
+            },
+            "selected": {
+              "value": "{font.body.m-strong}",
+              "type": "typography",
+              "description": "Типографика лейбла кнопки для месяца selected"
+            }
+          }
+        },
+        "year": {
+          "font": {
+            "default": {
+              "value": "{font.body.m}",
+              "type": "typography",
+              "description": "Типографика лейбла кнопки для года"
+            },
+            "hover": {
+              "value": "{font.body.m-strong}",
+              "type": "typography",
+              "description": "Типографика лейбла кнопки для года при hover (наведении курсора)"
+            },
+            "selected": {
+              "value": "{font.body.m-strong}",
+              "type": "typography",
+              "description": "Типографика лейбла кнопки для года selected"
+            }
+          }
+        },
+        "fulldate": {
+          "font": {
+            "value": "{font.body.m-strong}",
+            "type": "typography",
+            "description": "Типографика лейбла для полной даты"
+          }
+        },
+        "carouselcontrol": {
+          "height": {
+            "value": "{size.m}",
+            "type": "sizing",
+            "description": "Высота и ширина кнопок перелистывания"
+          },
+          "border-width": {
+            "value": "{border-width.buttons}",
+            "type": "borderWidth",
+            "description": "Толщина бордера кнопок перелистывания"
+          },
+          "border-radius": {
+            "value": "{border-radius.buttons}",
+            "type": "borderRadius",
+            "description": "Скругление углов  кнопок перелистывания"
+          }
+        }
+      }
+    }
+  }
+}

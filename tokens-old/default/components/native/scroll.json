@@ -1,0 +1,53 @@
+{
+  "scroll": {
+    "track": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{neutral.container-default}",
+            "type": "color",
+            "description": "Цвет фона трека в состоянии покоя"
+          },
+          "hover": {
+            "value": "{neutral.container-default}",
+            "type": "color",
+            "description": "Цвет фона трека при hover (наведении курсора)"
+          }
+        }
+      }
+    },
+    "knob": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{neutral.muted}",
+            "type": "color",
+            "description": "Цвет ручки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{neutral.soft}",
+            "type": "color",
+            "description": "Цвет ручки при hover (наведении курсора)"
+          }
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень ручки в состоянии покоя"
+        },
+        "hover": {
+          "value": "{shadow.bottom.s}",
+          "type": "boxShadow",
+          "description": "Тень ручки при hover (нажатии)"
+        }
+      }
+    },
+    "size": {
+      "value": "4",
+      "type": "sizing",
+      "description": "Ширина скролла"
+    }
+  }
+}

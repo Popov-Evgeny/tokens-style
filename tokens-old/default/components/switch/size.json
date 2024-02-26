@@ -1,0 +1,160 @@
+{
+  "switch": {
+    "s": {
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота контейнера свитча"
+      },
+      "width": {
+        "value": "40",
+        "type": "sizing",
+        "description": "Ширина контейнера свитча"
+      },
+      "padding-horizontal": {
+        "value": "{spacing.px}",
+        "type": "spacing",
+        "description": "Отступ в контейнере слева и справа (от границ контейнера до трека)"
+      },
+      "track": {
+        "height": {
+          "value": "{switch.s.height} - 4",
+          "type": "sizing",
+          "description": "Высота трека"
+        },
+        "padding-horizontal": {
+          "value": "{spacing.0,5x}",
+          "type": "spacing",
+          "description": "Отступ  от границ трека до рукоятки слева и справа"
+        },
+        "border-radius": {
+          "value": "{border-radius.full}",
+          "type": "borderRadius",
+          "description": "Скругление углов трека и контейнера"
+        },
+        "border-width": {
+          "value": "{border-width.controls}",
+          "type": "borderWidth",
+          "description": "Толщина обводки трека"
+        }
+      },
+      "knob": {
+        "height": {
+          "value": "{size.2xs}",
+          "type": "sizing",
+          "description": "Высота рукоятки"
+        },
+        "width": {
+          "value": "{size.2xs}",
+          "type": "sizing",
+          "description": "Ширина рукоятки"
+        },
+        "border-radius": {
+          "value": "{border-radius.full}",
+          "type": "borderRadius",
+          "description": "Скругление углов рукоятки"
+        },
+        "border-width": {
+          "value": "{border-width.controls}",
+          "type": "borderWidth",
+          "description": "Толщина обводки трека"
+        }
+      },
+      "spacing": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Расстояние между лейблом и контейнером свитча"
+      },
+      "label": {
+        "padding-vertical": {
+          "value": "{spacing.none}",
+          "type": "spacing",
+          "description": "Отступ от лейбла сверху и снизу (для выравнивания по центру контейнера свитча при несовпадении размера контейнера и line-height лейбла)"
+        }
+      },
+      "font": {
+        "value": "{font.body.m}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      }
+    },
+    "xs": {
+      "height": {
+        "value": "{size.xs}",
+        "type": "sizing",
+        "description": "Высота контейнера свитча"
+      },
+      "width": {
+        "value": "32",
+        "type": "sizing",
+        "description": "Ширина контейнера свитча"
+      },
+      "track": {
+        "height": {
+          "value": "{switch.xs.height} - 4",
+          "type": "sizing",
+          "description": "Высота трека"
+        },
+        "padding-horizontal": {
+          "value": "{spacing.0,5x}",
+          "type": "spacing",
+          "description": "Отступ  от границ трека до рукоятки слева и справа"
+        },
+        "border-radius": {
+          "value": "{border-radius.full}",
+          "type": "borderRadius",
+          "description": "Скругление углов трека и контейнера"
+        },
+        "border-width": {
+          "value": "{border-width.controls}",
+          "type": "borderWidth",
+          "description": "Толщина обводки трека"
+        }
+      },
+      "knob": {
+        "height": {
+          "value": "12",
+          "type": "sizing",
+          "description": "Высота рукоятки"
+        },
+        "width": {
+          "value": "12",
+          "type": "sizing",
+          "description": "Ширина рукоятки"
+        },
+        "border-radius": {
+          "value": "{border-radius.full}",
+          "type": "borderRadius",
+          "description": "Скругление углов рукоятки"
+        },
+        "border-width": {
+          "value": "{border-width.controls}",
+          "type": "borderWidth",
+          "description": "Толщина обводки трека"
+        }
+      },
+      "padding-horizontal": {
+        "value": "{spacing.px}",
+        "type": "spacing",
+        "description": "Отступ в контейнере слева и справа (от границ контейнера до трека)"
+      },
+      "spacing": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Расстояние между лейблом и контейнером свитча"
+      },
+      "label": {
+        "padding-vertical": {
+          "value": "{spacing.none}",
+          "type": "spacing",
+          "description": "Отступ от лейбла сверху и снизу (для выравнивания по центру контейнера свитча при несовпадении размера контейнера и line-height лейбла)"
+        }
+      },
+      "font": {
+        "value": "{font.body.s}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      }
+    }
+  }
+}

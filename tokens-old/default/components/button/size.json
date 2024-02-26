@@ -1,0 +1,200 @@
+{
+  "button": {
+    "xl": {
+      "height": {
+        "value": "{size.xl}",
+        "type": "sizing",
+        "description": "Высота кнопки"
+      },
+      "min-width": {
+        "value": "{button.xl.height}",
+        "type": "sizing",
+        "description": "Минимальная ширина кнопки"
+      },
+      "font": {
+        "value": "{font.body.m-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "spacing": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и иконкой"
+      },
+      "padding-left": {
+        "value": "{spacing.5x}",
+        "type": "spacing",
+        "description": "Padding слева"
+      },
+      "padding-right": {
+        "value": "{spacing.5x}",
+        "type": "spacing",
+        "description": "Padding справа"
+      },
+      "label": {
+        "padding-horizontal": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступы от лейбла слева и справа"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов кнопки"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина обводки"
+      }
+    },
+    "l": {
+      "font": {
+        "value": "{font.body.m-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "height": {
+        "value": "{size.l}",
+        "type": "sizing",
+        "description": "Высота кнопки"
+      },
+      "min-width": {
+        "value": "{button.l.height}",
+        "type": "sizing",
+        "description": "Минимальная ширина кнопки"
+      },
+      "spacing": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и иконкой"
+      },
+      "padding-left": {
+        "value": "{spacing.4x}",
+        "type": "spacing",
+        "description": "Padding слева"
+      },
+      "padding-right": {
+        "value": "{spacing.4x}",
+        "type": "spacing",
+        "description": "Padding справа"
+      },
+      "label": {
+        "padding-horizontal": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступы от лейбла слева и справа"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов кнопки"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина обводки"
+      }
+    },
+    "m": {
+      "font": {
+        "value": "{font.body.s-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "height": {
+        "value": "{size.m}",
+        "type": "sizing",
+        "description": "Высота кнопки"
+      },
+      "min-width": {
+        "value": "{button.m.height}",
+        "type": "sizing",
+        "description": "Минимальная ширина кнопки"
+      },
+      "spacing": {
+        "value": "{spacing.none}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и иконкой"
+      },
+      "padding-left": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Padding слева"
+      },
+      "padding-right": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Padding справа"
+      },
+      "label": {
+        "padding-horizontal": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступы от лейбла слева и справа"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов кнопки"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина обводки"
+      }
+    },
+    "s": {
+      "font": {
+        "value": "{font.description.l-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота кнопки"
+      },
+      "min-width": {
+        "value": "{button.s.height}",
+        "type": "sizing",
+        "description": "Минимальная ширина кнопки"
+      },
+      "spacing": {
+        "value": "{spacing.none}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и иконкой"
+      },
+      "padding-left": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Padding слева"
+      },
+      "padding-right": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Padding справа"
+      },
+      "label": {
+        "padding-horizontal": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступы от лейбла слева и справа"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов кнопки"
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина обводки"
+      }
+    }
+  }
+}

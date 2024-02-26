@@ -1,0 +1,168 @@
+{
+  "slider": {
+    "m": {
+      "track": {
+        "height": {
+          "default": {
+            "value": "4",
+            "type": "sizing",
+            "description": "Высота трека в спокойном состоянии"
+          }
+        },
+        "border-radius": {
+          "value": "{border-radius.xs}",
+          "type": "borderRadius",
+          "description": "Скругление углов трека"
+        }
+      },
+      "highlighttrack": {
+        "border-radius": {
+          "value": "{border-radius.xs}",
+          "type": "borderRadius",
+          "description": "Скругление углов активного трека"
+        },
+        "height": {
+          "default": {
+            "value": "4",
+            "type": "sizing",
+            "description": "Высота активного трека в состоянии покоя"
+          }
+        }
+      },
+      "handle": {
+        "height": {
+          "default": {
+            "value": "{size.2xs}",
+            "type": "sizing",
+            "description": "Высота и ширина ручки"
+          },
+          "hover": {
+            "value": "{size.xs}",
+            "type": "sizing",
+            "description": "Высота и ширина ручки"
+          }
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера ручки"
+        },
+        "border-radius": {
+          "value": "{border-radius.full}",
+          "type": "borderRadius",
+          "description": "Скругление углов ручки"
+        }
+      },
+      "tooltip": {
+        "offset": {
+          "value": "{spacing.3x}",
+          "type": "spacing",
+          "description": "Смещение тултипа от ручки",
+          "default": {
+            "value": "{spacing.3x}",
+            "type": "spacing",
+            "description": "Смещение тултипа от ручки"
+          },
+          "padding-left": {
+            "value": "{spacing.2x}",
+            "type": "spacing",
+            "description": "Отступ от границ «пузыря» до контента слева"
+          },
+          "padding-right": {
+            "value": "{spacing.2x}",
+            "type": "spacing",
+            "description": "Отступ от границ «пузыря» до контента справа"
+          },
+          "padding-top": {
+            "value": "{spacing.1x}",
+            "type": "spacing",
+            "description": "Отступ от границ «пузыря» до контента сверху"
+          },
+          "padding-bottom": {
+            "value": "{spacing.1x}",
+            "type": "spacing",
+            "description": "Отступ от границ «пузыря» до контента снизу"
+          }
+        },
+        "border-radius": {
+          "value": "{border-radius.m}",
+          "type": "borderRadius",
+          "description": "Скругление углов «пузыря» тултипа "
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера"
+        },
+        "arrow": {
+          "height": {
+            "value": "8",
+            "type": "sizing",
+            "description": "Высота стрелки"
+          },
+          "width": {
+            "value": "14",
+            "type": "sizing",
+            "description": "Ширина стрелки"
+          }
+        },
+        "padding-left": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Отступ от границ «пузыря» до контента слева"
+        },
+        "padding-right": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Отступ от границ «пузыря» до контента справа"
+        },
+        "padding-top": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступ от границ «пузыря» до контента сверху"
+        },
+        "padding-bottom": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступ от границ «пузыря» до контента снизу"
+        },
+        "font": {
+          "value": "{font.body.s-strong}",
+          "type": "typography",
+          "description": "Типографика лейбла тултипа"
+        }
+      },
+      "spacing": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ от трека до лейбла и марок"
+      },
+      "label": {
+        "spacing": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Отступ от лейбла до счетчика"
+        },
+        "font": {
+          "value": "{font.body.s}",
+          "type": "typography",
+          "description": "Типографика лейбла"
+        }
+      },
+      "counter": {
+        "font": {
+          "value": "{mobile.font.body.s-strong}",
+          "type": "typography",
+          "description": "Типографика счетчика"
+        }
+      },
+      "marks": {
+        "font": {
+          "value": "{font.description.s}",
+          "type": "typography",
+          "description": "Типографика марок"
+        }
+      }
+    }
+  }
+}

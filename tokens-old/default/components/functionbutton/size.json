@@ -1,0 +1,23 @@
+{
+  "functionbutton": {
+    "s": {
+      "spacing": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и иконкой"
+      },
+      "label": {
+        "padding-vertical": {
+          "value": "{spacing.0,5x}",
+          "type": "spacing",
+          "description": "Отступ от лейбла сверху и снизу (для выравнивания по центру иконки при несовпадении размера иконки и line-height лейбла)"
+        }
+      },
+      "font": {
+        "value": "{font.body.s-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      }
+    }
+  }
+}

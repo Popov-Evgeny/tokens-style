@@ -1,0 +1,258 @@
+{
+  "switch": {
+    "primary": {
+      "track": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{border.soft}",
+              "type": "color",
+              "description": "Цвет фона трека в состоянии покоя"
+            },
+            "hover": {
+              "value": "{border.default}",
+              "type": "color",
+              "description": "Цвет фона трека при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона трека при disabled"
+            },
+            "checked": {
+              "default": {
+                "value": "{accent.default}",
+                "type": "color",
+                "description": "Цвет фона трека checked в состоянии покоя"
+              },
+              "hover": {
+                "value": "{accent.hover}",
+                "type": "color",
+                "description": "Цвет фона трека checked при hover (наведении курсора)"
+              },
+              "disabled": {
+                "value": "{accent.container-default}",
+                "type": "color",
+                "description": "Цвет фона трека checked при disabled"
+              }
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера трека в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера трека при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера трека при disabled"
+            },
+            "checked": {
+              "default": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера трека checked в состоянии покоя"
+              },
+              "hover": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера трека checked при hover (наведении курсора)"
+              },
+              "disabled": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера трека checked при disabled"
+              }
+            }
+          }
+        },
+        "label": {
+          "color": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled"
+            },
+            "checked": {
+              "default": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла checked в состоянии покоя"
+              },
+              "hover": {
+                "value": "{fg.default}",
+                "type": "color",
+                "description": "Цвет лейбла checked при hover (наведении курсора)"
+              },
+              "disabled": {
+                "value": "{fg.disabled}",
+                "type": "color",
+                "description": "Цвет лейбла checked при disabled"
+              }
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень трека в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень трека при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень трека при disabled"
+          },
+          "checked": {
+            "default": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень трека checked в состоянии покоя"
+            },
+            "hover": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень трека checked при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень трека checked при disabled"
+            }
+          }
+        }
+      },
+      "knob": {
+        "bg": {
+          "color": {
+            "default": {
+              "value": "{static.white}",
+              "type": "color",
+              "description": "Цвет фона рукоятки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{static.white}",
+              "type": "color",
+              "description": "Цвет фона рукоятки при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{static.white}",
+              "type": "color",
+              "description": "Цвет фона рукоятки при disabled"
+            },
+            "checked": {
+              "default": {
+                "value": "{static.white}",
+                "type": "color",
+                "description": "Цвет фона рукоятки checked в состоянии покоя"
+              },
+              "hover": {
+                "value": "{static.white}",
+                "type": "color",
+                "description": "Цвет фона рукоятки checked при hover (наведении курсора)"
+              },
+              "disabled": {
+                "value": "{static.white}",
+                "type": "color",
+                "description": "Цвет фона рукоятки checked при disabled"
+              }
+            }
+          }
+        },
+        "border": {
+          "color": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера рукоятки в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера рукоятки при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера рукоятки при disabled"
+            },
+            "checked": {
+              "default": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера рукоятки checked в состоянии покоя"
+              },
+              "hover": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера рукоятки checked при hover (наведении курсора)"
+              },
+              "disabled": {
+                "value": "{none}",
+                "type": "color",
+                "description": "Цвет бордера рукоятки checked при disabled"
+              }
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "value": "{shadow.bottom.controls}",
+            "type": "boxShadow",
+            "description": "Тень рукоятки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.bottom.controls}",
+            "type": "boxShadow",
+            "description": "Тень рукоятки при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{shadow.bottom.controls}",
+            "type": "boxShadow",
+            "description": "Тень рукоятки при disabled"
+          },
+          "checked": {
+            "default": {
+              "value": "{shadow.bottom.controls}",
+              "type": "boxShadow",
+              "description": "Тень рукоятки checked в состоянии покоя"
+            },
+            "hover": {
+              "value": "{shadow.bottom.controls}",
+              "type": "boxShadow",
+              "description": "Тень рукоятки checked при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{shadow.bottom.controls}",
+              "type": "boxShadow",
+              "description": "Тень рукоятки checked при disabled"
+            }
+          }
+        }
+      }
+    }
+  }
+}

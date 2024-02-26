@@ -1,0 +1,205 @@
+{
+  "checkbox": {
+    "primary": {
+      "bg": {
+        "color": {
+          "default": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона в состоянии покоя"
+          },
+          "hover": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет фона при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{bg.disabled}",
+            "type": "color",
+            "description": "Цвет фона при disabled "
+          },
+          "checked": {
+            "default": {
+              "value": "{accent.default}",
+              "type": "color",
+              "description": "Цвет фона в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.hover}",
+              "type": "color",
+              "description": "Цвет фона при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{bg.disabled}",
+              "type": "color",
+              "description": "Цвет фона при disabled "
+            }
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "default": {
+            "value": "{border.soft}",
+            "type": "color",
+            "description": "Цвет бордера в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.soft}",
+            "type": "color",
+            "description": "Цвет бордера при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{none}",
+            "type": "color",
+            "description": "Цвет бордера при disabled "
+          },
+          "checked": {
+            "default": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера в состоянии покоя"
+            },
+            "hover": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{none}",
+              "type": "color",
+              "description": "Цвет бордера при disabled "
+            }
+          }
+        }
+      },
+      "label": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла в состоянии покоя"
+          },
+          "hover": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла при hover (наведении курсора)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет лейбла при disabled "
+          },
+          "checked": {
+            "default": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{fg.default}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "checked": {
+            "default": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла в состоянии покоя"
+            },
+            "hover": {
+              "value": "{accent.on-accent}",
+              "type": "color",
+              "description": "Цвет лейбла при hover (наведении курсора)"
+            },
+            "disabled": {
+              "value": "{fg.disabled}",
+              "type": "color",
+              "description": "Цвет лейбла при disabled "
+            }
+          }
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень в состоянии покоя"
+        },
+        "hover": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень при hover"
+        },
+        "disabled": {
+          "value": "{shadow.none}",
+          "type": "boxShadow",
+          "description": "Тень при disabled"
+        },
+        "checked": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень checked в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень checked при hover"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень checked при disabled"
+          }
+        }
+      },
+      "frame": {
+        "shadow": {
+          "default": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень у внутренней рамки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень у внутренней рамки при hover"
+          },
+          "disabled": {
+            "value": "{shadow.none}",
+            "type": "boxShadow",
+            "description": "Тень у внутренней рамки при disabled"
+          },
+          "checked": {
+            "default": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень у внутренней рамки checked в состоянии покоя"
+            },
+            "hover": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень у внутренней рамки checked при hover"
+            },
+            "disabled": {
+              "value": "{shadow.none}",
+              "type": "boxShadow",
+              "description": "Тень у внутренней рамки checked при disabled"
+            }
+          }
+        }
+      }
+    }
+  }
+}

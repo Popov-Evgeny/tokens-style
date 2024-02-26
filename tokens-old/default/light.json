@@ -1,0 +1,1073 @@
+{
+  "fg": {
+    "default": {
+      "value": "{neutral-990}",
+      "type": "color",
+      "description": "Основной цвет текста и иконок"
+    },
+    "soft": {
+      "value": "{neutral-500}",
+      "type": "color",
+      "description": "Мягкий тон цвета текста и иконок"
+    },
+    "muted": {
+      "value": "{neutral-300}",
+      "type": "color",
+      "description": "Приглушенный тон цвета текста и иконок"
+    },
+    "disabled": {
+      "value": "rgba({neutral-500}, 0.5)",
+      "type": "color",
+      "description": "Цвет текста и иконок для состояния disabled"
+    }
+  },
+  "bg": {
+    "surface1": {
+      "value": "{neutral-0}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface2": {
+      "value": "{neutral-10}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface3": {
+      "value": "{neutral-25}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface4": {
+      "value": "{neutral-50}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "surface5": {
+      "value": "{neutral-100}",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков"
+    },
+    "page": {
+      "value": "{neutral-0}",
+      "type": "color",
+      "description": "Цвет фона страницы"
+    },
+    "disabled": {
+      "value": "rgba({neutral-500}, 0.1)",
+      "type": "color",
+      "description": "Цвет фона для поверхностей, блоков в состоянии disabled"
+    },
+    "elevated": {
+      "0": {
+        "value": "{neutral-0}",
+        "type": "color",
+        "description": "Цвет фона на уровне 0"
+      },
+      "s": {
+        "value": "{neutral-0}",
+        "type": "color",
+        "description": "Цвет фона на уровне s"
+      },
+      "m": {
+        "value": "{neutral-0}",
+        "type": "color",
+        "description": "Цвет фона на уровне m"
+      },
+      "l": {
+        "value": "{neutral-0}",
+        "type": "color",
+        "description": "Цвет фона на уровне l"
+      },
+      "xl": {
+        "value": "{neutral-0}",
+        "type": "color",
+        "description": "Цвет фона на уровне xl"
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "value": "rgba({neutral-500}, 0.5)",
+      "type": "color",
+      "description": "Цвет для бордеров и разделителей"
+    },
+    "soft": {
+      "value": "rgba({neutral-500}, 0.25)",
+      "type": "color",
+      "description": "Мягкий тон цвета для бордеров и разделителей"
+    },
+    "muted": {
+      "value": "rgba({neutral-500}, 0.15)",
+      "type": "color",
+      "description": "Приглушенный тон цвета для бордеров и разделителей"
+    }
+  },
+  "accent": {
+    "default": {
+      "value": "{accent-500}",
+      "type": "color",
+      "description": "Цвет для акцентов"
+    },
+    "soft": {
+      "value": "{accent-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{accent-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{accent-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{accent-700}",
+      "type": "color"
+    },
+    "on-accent": {
+      "value": "{accent-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({accent-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({accent-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({accent-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({accent-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({accent-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{accent-500}",
+      "type": "color"
+    }
+  },
+  "neutral": {
+    "default": {
+      "value": "{neutral-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{neutral-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{neutral-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{neutral-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{neutral-700}",
+      "type": "color"
+    },
+    "on-neutral": {
+      "value": "{neutral-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({neutral-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({neutral-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({neutral-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({neutral-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({neutral-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{neutral-500}",
+      "type": "color"
+    }
+  },
+  "success": {
+    "default": {
+      "value": "{success-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{success-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{success-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{success-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{success-700}",
+      "type": "color"
+    },
+    "on-success": {
+      "value": "{success-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({success-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({success-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({success-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({success-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({success-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{success-500}",
+      "type": "color"
+    }
+  },
+  "warning": {
+    "default": {
+      "value": "{warning-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{warning-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{warning-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{warning-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{warning-700}",
+      "type": "color"
+    },
+    "on-warning": {
+      "value": "{warning-990}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({warning-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({warning-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({warning-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({warning-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({warning-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{warning-600}",
+      "type": "color"
+    }
+  },
+  "error": {
+    "default": {
+      "value": "{error-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{error-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{error-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{error-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{error-700}",
+      "type": "color"
+    },
+    "on-error": {
+      "value": "{error-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({error-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({error-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({error-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({error-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({error-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{error-500}",
+      "type": "color"
+    }
+  },
+  "info": {
+    "default": {
+      "value": "{info-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{info-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{info-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{info-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{info-700}",
+      "type": "color"
+    },
+    "on-info": {
+      "value": "{info-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({info-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({info-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({info-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({info-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({info-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{info-500}",
+      "type": "color"
+    }
+  },
+  "status-01": {
+    "default": {
+      "value": "{status-01-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{status-01-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{status-01-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{status-01-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{status-01-700}",
+      "type": "color"
+    },
+    "on-status-01": {
+      "value": "{status-01-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({status-01-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({status-01-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({status-01-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({status-01-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({status-01-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{status-01-500}",
+      "type": "color"
+    }
+  },
+  "status-02": {
+    "default": {
+      "value": "{status-02-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{status-02-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{status-02-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{status-02-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{status-02-700}",
+      "type": "color"
+    },
+    "on-status-02": {
+      "value": "{status-02-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({status-02-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({status-02-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({status-02-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({status-02-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({status-02-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{status-02-500}",
+      "type": "color"
+    }
+  },
+  "status-03": {
+    "default": {
+      "value": "{status-03-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{status-03-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{status-03-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{status-03-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{status-03-700}",
+      "type": "color"
+    },
+    "on-status-03": {
+      "value": "{status-03-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({status-03-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({status-03-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({status-03-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({status-03-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({status-03-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{status-03-500}",
+      "type": "color"
+    }
+  },
+  "status-04": {
+    "default": {
+      "value": "{status-04-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{status-04-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{status-04-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{status-04-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{status-04-700}",
+      "type": "color"
+    },
+    "on-status-04": {
+      "value": "{status-04-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({status-04-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({status-04-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({status-04-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({status-04-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({status-04-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{status-04-500}",
+      "type": "color"
+    }
+  },
+  "status-05": {
+    "default": {
+      "value": "{status-05-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{status-05-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{status-05-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{status-05-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{status-05-700}",
+      "type": "color"
+    },
+    "on-status-05": {
+      "value": "{status-05-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({status-05-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({status-05-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({status-05-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({status-05-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({status-05-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{status-05-500}",
+      "type": "color"
+    }
+  },
+  "status-06": {
+    "default": {
+      "value": "{status-06-500}",
+      "type": "color"
+    },
+    "soft": {
+      "value": "{status-06-400}",
+      "type": "color"
+    },
+    "muted": {
+      "value": "{status-06-200}",
+      "type": "color"
+    },
+    "hover": {
+      "value": "{status-06-600}",
+      "type": "color"
+    },
+    "active": {
+      "value": "{status-06-700}",
+      "type": "color"
+    },
+    "on-status-06": {
+      "value": "{status-06-0}",
+      "type": "color"
+    },
+    "container-default": {
+      "value": "rgba({status-06-500}, 0.1)",
+      "type": "color"
+    },
+    "container-soft": {
+      "value": "rgba({status-06-500}, 0.05)",
+      "type": "color"
+    },
+    "container-muted": {
+      "value": "rgba({status-06-500}, 0.03)",
+      "type": "color"
+    },
+    "container-hover": {
+      "value": "rgba({status-06-500}, 0.2)",
+      "type": "color"
+    },
+    "container-active": {
+      "value": "rgba({status-06-500}, 0.3)",
+      "type": "color"
+    },
+    "on-container": {
+      "value": "{status-06-500}",
+      "type": "color"
+    }
+  },
+  "static": {
+    "white": {
+      "value": "{neutral-0}",
+      "type": "color",
+      "description": "Белый цвет, не меняющийся при переключении режима light / dark"
+    },
+    "black": {
+      "value": "{neutral-990}",
+      "type": "color",
+      "description": "Черный цвет, не меняющийся при переключении режима light / dark"
+    }
+  },
+  "focus": {
+    "soft": {
+      "value": "rgba({accent-500}, 0.1)",
+      "type": "color",
+      "description": "Цвет обводки фокуса типа Soft (Только одна толстая обводка вокруг компонента) "
+    },
+    "contrast": {
+      "value": "rgba({accent-500}, 0.1)",
+      "type": "color",
+      "description": "Цвет обводки фокуса типа Contrast (толстая обводка вокруг компонента) "
+    },
+    "extra": {
+      "value": "{bg.surface1}",
+      "type": "color",
+      "description": "Цвет контрастной обводки фокуса типа Contrast (тонкая обводка вокруг компонента, которая отделяет компонент от более толстой обводки) "
+    }
+  },
+  "shadow": {
+    "bottom": {
+      "s": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне s, падает вниз"
+      },
+      "m": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне m, падает вниз"
+      },
+      "l": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "20",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "12",
+            "blur": "20",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне l, падает вниз"
+      },
+      "xl": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "32",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "32",
+            "blur": "32",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне xl, падает вниз"
+      },
+      "controls": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.2)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень для ручек контролов, падает вниз"
+      },
+      "accent": {
+        "s": {
+          "value": [
+            {
+              "color": "rgba({accent.default}, 0.1)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0"
+            },
+            {
+              "color": "rgba({accent.default}, 0.05)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "0",
+              "blur": "8",
+              "spread": "0"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Акцентная тень на уровне s, падает вниз"
+        },
+        "m": {
+          "value": [
+            {
+              "color": "rgba({accent.default}, 0.1)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "4",
+              "blur": "8",
+              "spread": "0"
+            },
+            {
+              "color": "rgba({accent.default}, 0.05)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "0",
+              "blur": "16",
+              "spread": "0"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Акцентная тень на уровне m, падает вниз"
+        },
+        "l": {
+          "value": [
+            {
+              "color": "rgba({accent.default}, 0.1)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "12",
+              "blur": "20",
+              "spread": "0"
+            },
+            {
+              "color": "rgba({accent.default}, 0.05)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "0",
+              "blur": "20",
+              "spread": "0"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Акцентная тень на уровне l, падает вниз"
+        },
+        "xl": {
+          "value": [
+            {
+              "color": "rgba({accent.default}, 0.1)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "32",
+              "blur": "32",
+              "spread": "0"
+            },
+            {
+              "color": "rgba({accent.default}, 0.05)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "0",
+              "blur": "32",
+              "spread": "0"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Акцентная тень на уровне xl, падает вниз"
+        },
+        "controls": {
+          "value": [
+            {
+              "color": "rgba({accent.default}, 0.1)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "2",
+              "blur": "2",
+              "spread": "0"
+            },
+            {
+              "color": "rgba({accent.default}, 0.2)",
+              "type": "dropShadow",
+              "x": "0",
+              "y": "0",
+              "blur": "1",
+              "spread": "0"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Акцентная тень для ручек контролов, падает вниз"
+        }
+      }
+    },
+    "top": {
+      "s": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-2",
+            "blur": "4",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне s, падает вверх"
+      },
+      "m": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-4",
+            "blur": "8",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне m, падает вверх"
+      },
+      "l": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "20",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-12",
+            "blur": "20",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне l, падает вверх"
+      },
+      "xl": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "32",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.05)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-32",
+            "blur": "32",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень на уровне xl, падает вверх"
+      },
+      "controls": {
+        "value": [
+          {
+            "color": "rgba({neutral-500}, 0.1)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0"
+          },
+          {
+            "color": "rgba({neutral-500}, 0.2)",
+            "type": "dropShadow",
+            "x": "0",
+            "y": "-2",
+            "blur": "2",
+            "spread": "0"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Тень для ручек контролов, падает вверх"
+      }
+    }
+  }
+}

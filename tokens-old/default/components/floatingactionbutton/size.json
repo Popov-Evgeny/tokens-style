@@ -1,0 +1,87 @@
+{
+  "floatingactionbutton": {
+    "l": {
+      "height": {
+        "value": "{size.l}",
+        "type": "sizing",
+        "description": "Высота кнопки (и ширина для кнопки только с иконкой)"
+      },
+      "padding-horizontal": {
+        "value": "{spacing.5x}",
+        "type": "spacing",
+        "description": "Padding кнопки слева и справа"
+      },
+      "spacing": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и иконкой"
+      },
+      "label": {
+        "padding-horizontal": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Отступы от лейбла слева и справа"
+        }
+      },
+      "border-width": {
+        "value": "{border-width.buttons}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "border-radius": {
+        "value": "{border-radius.buttons}",
+        "type": "borderRadius",
+        "description": "Скругление углов"
+      },
+      "font": {
+        "value": "{font.body.m-strong}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "menu": {
+        "offset": {
+          "value": "{spacing.3x}",
+          "type": "spacing",
+          "description": "Смещение меню от кнопки"
+        },
+        "spacing": {
+          "value": "{spacing.2x}",
+          "type": "spacing",
+          "description": "Расстояние между айтемами меню"
+        }
+      },
+      "menuitem": {
+        "height": {
+          "value": "{size.l}",
+          "type": "sizing",
+          "description": "Высота FloatingActionMenuItem (и ширина только с иконкой)"
+        },
+        "padding-horizontal": {
+          "value": "{spacing.3x}",
+          "type": "spacing",
+          "description": "Padding у FloatingActionMenuItem слева и справа"
+        },
+        "spacing": {
+          "value": "{spacing.1x}",
+          "type": "spacing",
+          "description": "Расстояние у FloatingActionMenuItem между лейблом и иконкой"
+        },
+        "border-width": {
+          "value": "{border-width.none}",
+          "type": "borderWidth",
+          "description": "Толщина бордера у FloatingActionMenuItem "
+        },
+        "border-radius": {
+          "value": "{border-radius.m}",
+          "type": "borderRadius",
+          "description": "Скругление углов у FloatingActionMenuItem "
+        },
+        "font": {
+          "value": "{font.body.s}",
+          "type": "typography",
+          "description": "Типографика лейбла у FloatingActionMenuItem "
+        }
+      }
+    }
+  }
+}

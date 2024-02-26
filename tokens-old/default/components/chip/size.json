@@ -1,0 +1,50 @@
+{
+  "chip": {
+    "m": {
+      "height": {
+        "value": "{size.m-chip}",
+        "type": "sizing",
+        "description": "Высота чипса"
+      },
+      "spacing": {
+        "value": "{spacing.1x}",
+        "type": "spacing",
+        "description": "Расстояние между лейблом и счетчиком"
+      },
+      "padding-left": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ слева"
+      },
+      "padding-right": {
+        "value": "{spacing.3x}",
+        "type": "spacing",
+        "description": "Отступ справа"
+      },
+      "border-radius": {
+        "value": "{border-radius.full}",
+        "type": "borderRadius",
+        "description": "Скругление углов"
+      },
+      "border-width": {
+        "value": "{border-width.controls}",
+        "type": "borderWidth",
+        "description": "Толщина бордера"
+      },
+      "label": {
+        "font": {
+          "value": "{font.body.m}",
+          "type": "typography",
+          "description": "Типографика лейбла"
+        }
+      },
+      "counter": {
+        "font": {
+          "value": "{font.description.l}",
+          "type": "typography",
+          "description": "Типографика счетчика"
+        }
+      }
+    }
+  }
+}

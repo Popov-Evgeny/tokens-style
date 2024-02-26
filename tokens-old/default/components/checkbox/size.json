@@ -1,0 +1,82 @@
+{
+  "checkbox": {
+    "s": {
+      "font": {
+        "value": "{font.body.m}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота и ширина контейнера чекбокса"
+      },
+      "padding": {
+        "value": "{spacing.0,5x}",
+        "type": "spacing",
+        "description": "Внутренний отступ от границ чекбокса до его рамки"
+      },
+      "spacing": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и контейнером чекбокса"
+      },
+      "label": {
+        "padding-vertical": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Отступ от лейбла сверху и снизу (для выравнивания по центру контейнера при несовпадении размера контейнера и line-height лейбла)"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.controls}",
+        "type": "borderRadius",
+        "description": "Скругление углов контейнера и рамки чекбокса"
+      },
+      "border-width": {
+        "value": "{border-width.controls}",
+        "type": "borderWidth",
+        "description": "Толщина обводки"
+      }
+    },
+    "xs": {
+      "font": {
+        "value": "{font.body.s}",
+        "type": "typography",
+        "description": "Типографика лейбла"
+      },
+      "height": {
+        "value": "{size.xs}",
+        "type": "sizing",
+        "description": "Высота и ширина контейнера чекбокса"
+      },
+      "padding": {
+        "value": "{spacing.0,5x}",
+        "type": "spacing",
+        "description": "Внутренний отступ от границ чекбокса до его рамки"
+      },
+      "spacing": {
+        "value": "{spacing.2x}",
+        "type": "spacing",
+        "description": "Отступ между лейблом и контейнером чекбокса"
+      },
+      "label": {
+        "padding-vertical": {
+          "value": "0",
+          "type": "spacing",
+          "description": "Отступ от лейбла сверху и снизу (для выравнивания по центру контейнера при несовпадении размера контейнера и line-height лейбла)"
+        }
+      },
+      "border-radius": {
+        "value": "{border-radius.controls}",
+        "type": "borderRadius",
+        "description": "Скругление углов контейнера и рамки чекбокса"
+      },
+      "border-width": {
+        "value": "{border-width.controls}",
+        "type": "borderWidth",
+        "description": "Толщина обводки"
+      }
+    }
+  }
+}

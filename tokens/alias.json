@@ -1,0 +1,8 @@
+{
+  "size": {
+    "xxs": {
+      "value": "{size.base}",
+      "type": "sizing"
+    }
+  }
+}

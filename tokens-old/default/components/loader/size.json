@@ -1,0 +1,25 @@
+{
+  "loader": {
+    "m": {
+      "height": {
+        "value": "{size.m}",
+        "type": "sizing",
+        "description": "Высота и ширина"
+      }
+    },
+    "s": {
+      "height": {
+        "value": "{size.s}",
+        "type": "sizing",
+        "description": "Высота и ширина"
+      }
+    },
+    "2xs": {
+      "height": {
+        "value": "{size.2xs}",
+        "type": "sizing",
+        "description": "Высота и ширина"
+      }
+    }
+  }
+}

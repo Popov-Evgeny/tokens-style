@@ -1,0 +1,154 @@
+{
+  "functionbutton": {
+    "primary": {
+      "label": {
+        "color": {
+          "default": {
+            "value": "{accent.default}",
+            "type": "color",
+            "description": "Цвет лейбла в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет лейбла при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет лейбла при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет лейбла при disabled"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{accent.default}",
+            "type": "color",
+            "description": "Цвет иконки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет иконки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет иконки при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет иконки при disabled"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "label": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет лейбла в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет лейбла при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет лейбла при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет лейбла при disabled"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{fg.default}",
+            "type": "color",
+            "description": "Цвет иконки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет иконки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет иконки при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет иконки при disabled"
+          }
+        }
+      }
+    },
+    "tertiary": {
+      "label": {
+        "color": {
+          "default": {
+            "value": "{fg.soft}",
+            "type": "color",
+            "description": "Цвет лейбла в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет лейбла при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет лейбла при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет лейбла при disabled"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "default": {
+            "value": "{fg.soft}",
+            "type": "color",
+            "description": "Цвет иконки в состоянии покоя"
+          },
+          "hover": {
+            "value": "{accent.hover}",
+            "type": "color",
+            "description": "Цвет иконки при hover (наведении курсора)"
+          },
+          "active": {
+            "value": "{accent.active}",
+            "type": "color",
+            "description": "Цвет иконки при active (нажатии)"
+          },
+          "disabled": {
+            "value": "{fg.disabled}",
+            "type": "color",
+            "description": "Цвет иконки при disabled"
+          }
+        }
+      }
+    }
+  }
+}
